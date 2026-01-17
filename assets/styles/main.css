@@ -95,9 +95,10 @@ section h2 {
 }
 
 section p {
-  color: #665;
+  color: rgb(255, 255, 255);
   margin-bottom: 1.5rem;
   font-size: 1rem;
+  font-weight: bolder;
 }
 
 #filter-age-result-ex-2,
