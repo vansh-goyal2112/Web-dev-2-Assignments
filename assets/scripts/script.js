@@ -178,4 +178,4 @@ const brokenCharacters = [
   { id: 10, age: 27 },
 ];
 
-characterNamePropertyCheck(brokenCharacters, "broken-array-list", "broken-array-errors", 1000, "filter-age-result-ex-6");
+characterNamePropertyCheck(brokenCharacters, "broken-array-list", "broken-array-errors", 10, "filter-age-result-ex-6");
