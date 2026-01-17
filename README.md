@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Week 1 Assignment - Development Setup & Bug Hunt
 
 This project is designed to help you verify your development environment and refresh your HTML, CSS, and JavaScript debugging skills.
@@ -55,3 +56,6 @@ By completing this assignment, you will practice:
 - Reinforce familarity with foundational Git Practices
 - Organizing a project with a dedicated asset folder.
 - Deploying a static website to GitHub Pages.
+=======
+# Web-dev-2-Assignments
+>>>>>>> 6a3e8e1989b7ee13d9ec68f584abc482c9263c8d

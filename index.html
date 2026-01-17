@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" >
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" >
+  <title>SD Web 2 Assignment 1</title>
+  <link rel="stylesheet" href="assets/styles/main.css" >
+</head>
+
+<body>
+  <div>
+    <header>
+      <div>
+        <h1>SAIT Software Developer Program Web 2 Assignment 1</h1>
+        <p>
+          Complete the JavaScript exercises below. Check the console for output
+          and fill in the results on this page.
+        </p>
+      </div>
+      <div>
+        <nav>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <li><a href="more.html">More Info</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <section id="exercise-1">
+        <h2>Exercise 1: Print Character Names</h2>
+        <p>Print the names of each character to the <code>console</code>.</p>
+        <div class="output">
+          <h3>Results:</h3>
+          <ul id="names-list"></ul>
+        </div>
+      </section>
+
+      <section id="exercise-2">
+        <h2>Exercise 2: Filter by Age</h2>
+        <p>Print the names of characters whose age is less than <code>40</code>.</p>
+        <div class="output">
+          <h3>Results:</h3>
+          <p id = "filter-age-result-ex-2"></p>
+          <ul id="young-characters-list"></ul>
+          <div class="empty-list"></div>
+        </div>
+      </section>
+
+      <section id="exercise-3">
+        <h2>Exercise 3: Reusable Function for Lists</h2>
+        <p>
+          Create a function that takes any <code>array</code> and renders a list of character <code>name</code> on the page.
+        </p>
+        <div class="output">
+          <h3>Results:</h3>
+          <ul id="function-list"></ul>
+        </div>
+      </section>
+
+      <section id="exercise-4">
+        <h2>Exercise 4: Age Filter Function</h2>
+        <p>
+          Create a function that takes an array and an <code>age</code> threshold, then displays <code>characters</code> below that <code>age</code>.
+        </p>
+        <div class="output">
+          <h3>Results:</h3>
+          <p id = "filter-age-result-ex-4"></p>
+          <ul id="age-filter-list"></ul>
+          <div class="empty-list"></div>
+        </div>
+      </section>
+
+      <section id="exercise-5">
+        <h2>Exercise 5: Error Handling</h2>
+        <p>Add error handling to check if objects have a <code>"name"</code> property.</p>
+        <div class="output">
+          <h3>Results:</h3>
+          <p id = "filter-age-result-ex-5"></p>
+          <ul id="error-handling-list"></ul>
+          <div id="error-messages"></div>
+          <div class="empty-list"></div>
+          <div class="success"></div>
+        </div>
+      </section>
+
+      <section id="exercise-6">
+        <h2>Exercise 6: Test Error Handling</h2>
+        <p>Test your error handling by using a broken <code>array</code>.</p>
+        <div class="output">
+          <h3>Results:</h3>
+          <p id = "filter-age-result-ex-6"></p>
+          <ul id="broken-array-list"></ul>
+          <div id="broken-array-errors"></div>
+          <div class="success"></div>
+        </div>
+      </section>
+
+      <section>
+        <h2>Article Collection</h2>
+
+        <article>
+          <header>
+            <h3>About the Author</h3>
+          </header>
+
+          <figure>
+            <img src="assets/images/Goku.webp" alt="Vansh Goyal" >
+            <figcaption>
+              <div>
+                <p><strong>Vansh Goyal</strong></p>
+                <p>Student ID: 000966851</p>
+                <p>Software Development Program</p>
+                <p>Southern Alberta Institute of Technology (SAIT)</p>
+                <p>Semester 3 – Web Development 2 Project</p>
+              </div>
+            </figcaption>
+          </figure>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis quibusdam, iure neque quisquam esse itaque natus fuga provident ad et! Esse, maxime ab deleniti nemo voluptates, incidunt assumenda nesciunt odio delectus, ipsum rem dolores ducimus laudantium quas magnam ad cupiditate tempore quis? Provident fuga nobis delectus nemo. Consectetur exercitationem sequi pariatur rerum soluta mollitia dolor nam officia cupiditate iusto animi qui a voluptate eligendi aut perspiciatis quam numquam perferendis repellendus dolore, ratione aliquam? Cumque minima blanditiis maiores, quia ea sunt quam consectetur sit illo iusto eligendi modi fugiat. Quisquam laborum culpa odit dignissimos dolor repudiandae facilis sapiente quasi debitis quas!
+          </p>
+          <footer>
+            <p>final info about the article</p>
+          </footer>
+        </article>
+      </section>
+    </main>
+
+    <footer>
+      <p>&copy; 2025 SAIT</p>
+    </footer>
+  </div>
+
+  <script src="assets/scripts/script.js"></script>
+</body>
+
+</html>
